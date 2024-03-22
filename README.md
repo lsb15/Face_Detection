@@ -18,11 +18,18 @@ Face detection is a fundamental task in computer vision, with numerous applicati
 
 You can install the required Python packages using pip:
 
+```bash
 !pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 -f https://download.pytorch.org/whl/torch_stable.html
 !pip install opencv-python==4.8.0.76 matplotlib
 !pip install python-time
-!git clone https://github.com/sachadee/Dlib.git or python -m pip install dlib-19.22.99-cp38-cp38m-win_amd64.whl
+!git clone https://github.com/sachadee/Dlib.git
+python -m pip install dlib-19.22.99-cp38-cp38m-win_amd64.whl
+```
+For Retinaface, you can clone the repository using the provided Git address:
+
+```bash
 !git clone https://github.com/biubug6/Pytorch_Retinaface.git
+```
 
 ## Dataset
 
